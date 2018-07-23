@@ -6,7 +6,7 @@
   "main": "index.js",
   "repository": {
     "type": "git",
-    "url": "git+ssh://git@github.com/Southern/node-x509.git"
+    "url": "git+ssh://git@github.com/alexanderkhivrych/node-x509.git"
   },
   "scripts": {
     "test": "node test/test",
@@ -18,9 +18,9 @@
   },
   "gypfile": true,
   "bugs": {
-    "url": "https://github.com/Southern/node-x509/issues"
+    "url": "https://github.com/alexanderkhivrych/node-x509/issues"
   },
-  "homepage": "https://github.com/Southern/node-x509#readme",
+  "homepage": "https://github.com/alexanderkhivrych/node-x509#readme",
   "directories": {
     "test": "test"
   },
