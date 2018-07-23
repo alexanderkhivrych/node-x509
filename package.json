@@ -1,18 +1,31 @@
 {
-  "name": "x509",
-  "version": "0.3.3",
+  "name": "x509-parser",
+  "version": "1.1.0",
   "description": "Simple X509 certificate parser.",
-  "author": "Colton Baker",
+  "author": "Alexander Khivrych",
   "main": "index.js",
   "repository": {
     "type": "git",
-    "url": "git@github.com:Southern/node-x509.git"
+    "url": "git+ssh://git@github.com/Southern/node-x509.git"
   },
   "scripts": {
-    "test": "node test/test"
+    "test": "node test/test",
+    "install": "node-gyp rebuild"
   },
   "license": "MIT",
   "dependencies": {
     "nan": "2.10.0"
-  }
+  },
+  "gypfile": true,
+  "bugs": {
+    "url": "https://github.com/Southern/node-x509/issues"
+  },
+  "homepage": "https://github.com/Southern/node-x509#readme",
+  "directories": {
+    "test": "test"
+  },
+  "devDependencies": {},
+  "keywords": [
+    "x509"
+  ]
 }
